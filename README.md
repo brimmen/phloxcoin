@@ -4,7 +4,7 @@ Phloxcoin integration/staging tree
 http://www.phloxcoin.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Phloxcoin Developers
+Copyright (c) 2023 Phloxcoin Developers
 
 What is Phloxcoin?
 ----------------
