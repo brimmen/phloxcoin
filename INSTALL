@@ -1,0 +1,9 @@
+Building Phloxcoin
+
+See doc/readme-qt.rst for instructions on building Phloxcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Phloxcoin.
+
+See doc/build-*.txt for instructions on building phloxcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Phloxcoin.
