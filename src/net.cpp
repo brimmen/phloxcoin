@@ -1225,7 +1225,7 @@ void ThreadDNSAddressSeed()
 
 unsigned int pnSeed[] =
 {
-    0x42870be0
+    0x42870be0,0x42871dfb
 };
 
 void DumpAddresses()
