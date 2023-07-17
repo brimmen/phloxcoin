@@ -11,7 +11,6 @@
  * IPv4 as well as onion addresses are wrapped inside an IPv6 address accordingly.
  */
 static SeedSpec6 pnSeed6_main[] = {
-<<<<<<< HEAD
     // Mainnet seed nodes
     {"149.28.46.22", 2333},  // Replace with your server instance IP and P2P port
     {"66.135.29.251", 2333}, // Replace with your server instance IP and P2P port
@@ -20,13 +19,6 @@ static SeedSpec6 pnSeed6_main[] = {
 
 static SeedSpec6 pnSeed6_test[] = {
     // Testnet seed nodes
-=======
-    // Uncomment and add seed nodes here
-};
-
-static SeedSpec6 pnSeed6_test[] = {
-    // Uncomment and add seed nodes here
->>>>>>> 1a1bb180c044106f8705dabf8c504453b1b42883
 };
 
 #endif // BITCOIN_CHAINPARAMSSEEDS_H
