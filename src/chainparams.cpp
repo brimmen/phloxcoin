@@ -124,9 +124,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x111f999cfea7857f0174694b44999f5b547e3db8f0717c8f9e5533743dcbdb00"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("http://66.135.29.251:3001/", true);
-        //vSeeds.emplace_back("dnsseed.thrasher.io", false);
-        //vSeeds.emplace_back("dnsseed.phloxcointools.com", false);
+        vSeeds.emplace_back("http://66.135.29.251", true);
+        vSeeds.emplace_back("http://149.28.46.22", true);
+        vSeeds.emplace_back("http://45.63.107.24", true);
         //vSeeds.emplace_back("dnsseed.phloxcoinpool.org", false);
         //vSeeds.emplace_back("dnsseed.koin-project.com", false);
 
@@ -196,7 +196,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xa0afbded94d4be233e191525dc2d467af5c7eab3143c852c3cd549831022aad6"); //343833
+        consensus.defaultAssumeValid = uint256S("0x2361ddda9d1d5e2f601f3b672e5baead4840cabfd097fa92491822459725ab98"); //0
 
         pchMessageStart[0] = 0xf1;
         pchMessageStart[1] = 0xc2;
