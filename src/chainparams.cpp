@@ -124,9 +124,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x111f999cfea7857f0174694b44999f5b547e3db8f0717c8f9e5533743dcbdb00"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
+        vSeeds.emplace_back("http://64.176.223.96", true);
         vSeeds.emplace_back("http://66.135.29.251", true);
-        vSeeds.emplace_back("http://149.28.46.22", true);
-        vSeeds.emplace_back("http://45.63.107.24", true);
+        vSeeds.emplace_back("http://149.28.35.100", true);
         //vSeeds.emplace_back("dnsseed.phloxcoinpool.org", false);
         //vSeeds.emplace_back("dnsseed.koin-project.com", false);
 
