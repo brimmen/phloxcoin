@@ -12,9 +12,9 @@
  */
 static SeedSpec6 pnSeed6_main[] = {
     // Mainnet seed nodes
-    {"149.28.46.22", 2333},  // Replace with your server instance IP and P2P port
+    {"64.176.223.96", 2333},  // Replace with your server instance IP and P2P port
     {"66.135.29.251", 2333}, // Replace with your server instance IP and P2P port
-    {"45.63.107.24", 2333}   // Replace with your server instance IP and P2P port
+    {"149.28.35.100", 2333}   // Replace with your server instance IP and P2P port
 };
 
 static SeedSpec6 pnSeed6_test[] = {
